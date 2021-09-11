@@ -1,1 +1,17 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/users/**
+        - id: TICKET-SERVICE
+          uri: lb://TICKET-SERVICE
+          predicates:
+            - Path=/api/tickets/**
 

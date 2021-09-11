@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:9296
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedHeaders:
+              - content-type
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
