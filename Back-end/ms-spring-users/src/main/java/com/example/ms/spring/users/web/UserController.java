@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 
 @RestController
-@RequestMapping("api")
+@RequestMapping("api/users/")
 @RequiredArgsConstructor
 public class UserController {
 
@@ -25,12 +25,12 @@ public class UserController {
         return business.insert(user);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("{id}")
     public Mono<User> updateUser(@RequestBody User user, @PathVariable("id") Integer id) {
         return business.update(id, user);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("{id}")
     public Mono<Void> deleteUser(@PathVariable("id") Integer id) {
         return business.delete(id);
     }
