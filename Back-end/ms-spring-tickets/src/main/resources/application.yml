@@ -1,6 +1,10 @@
 spring:
+  application:
+    name: TICKET-SERVICE
   r2dbc:
     url: r2dbc:postgresql://localhost:5432/ms-ticket-db
     username: postgres
     password: 1234
 
+server:
+  port: 8080

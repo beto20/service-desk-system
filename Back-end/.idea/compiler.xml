@@ -2,10 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ms-cloud-config" />
         <module name="ms-spring-cloud-gateway" />
         <module name="ms-spring-tickets" />
         <module name="ms-spring-users" />
@@ -13,18 +15,22 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ms-cloud-config" target="1.8" />
       <module name="ms-spring-cloud-gateway" target="1.8" />
       <module name="ms-spring-eureka" target="1.8" />
       <module name="ms-spring-tickets" target="1.8" />
       <module name="ms-spring-users" target="1.8" />
+      <module name="poc-ms-cloud-config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-cloud-config" options="-parameters" />
       <module name="ms-spring-cloud-gateway" options="-parameters" />
       <module name="ms-spring-eureka" options="-parameters" />
       <module name="ms-spring-tickets" options="-parameters" />
       <module name="ms-spring-users" options="-parameters" />
+      <module name="poc-ms-cloud-config" options="-parameters" />
     </option>
   </component>
 </project>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ms-cloud-config/ms-cloud-config.iml" filepath="$PROJECT_DIR$/ms-cloud-config/ms-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-spring-cloud-gateway/ms-spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/ms-spring-cloud-gateway/ms-spring-cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-spring-eureka/ms-spring-eureka.iml" filepath="$PROJECT_DIR$/ms-spring-eureka/ms-spring-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-spring-tickets/ms-spring-tickets.iml" filepath="$PROJECT_DIR$/ms-spring-tickets/ms-spring-tickets.iml" />
