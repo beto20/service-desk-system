@@ -8,7 +8,7 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.alberto</groupId>
     <artifactId>ms-spring-cloud-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ms-spring-cloud-gateway</name>

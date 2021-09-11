@@ -1,0 +1,10 @@
+com\example\ms\spring\users\web\UserController.class
+com\example\ms\spring\users\model\User$UserBuilder.class
+com\example\ms\spring\users\repository\UserRepository.class
+com\example\ms\spring\users\MsSpringUsersApplication.class
+com\example\ms\spring\users\util\ConfigR2DBC.class
+com\example\ms\spring\users\business\UserBusinessImpl.class
+com\example\ms\spring\users\business\UserBusiness.class
+com\example\ms\spring\users\model\Department.class
+com\example\ms\spring\users\model\Role.class
+com\example\ms\spring\users\model\User.class
