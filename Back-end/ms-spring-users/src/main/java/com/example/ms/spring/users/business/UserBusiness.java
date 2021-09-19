@@ -7,6 +7,6 @@ import reactor.core.publisher.Mono;
 public interface UserBusiness {
     Flux<User> getAll();
     Mono<User> insert(User user);
-    Mono<User> update(Integer id, User user);
-    Mono<Void> delete(Integer id);
+    Mono<User> update(String id, User user);
+    Mono<Void> delete(String id);
 }

@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/ms-spring-eureka/ms-spring-eureka.iml" filepath="$PROJECT_DIR$/ms-spring-eureka/ms-spring-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-spring-tickets/ms-spring-tickets.iml" filepath="$PROJECT_DIR$/ms-spring-tickets/ms-spring-tickets.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-spring-users/ms-spring-users.iml" filepath="$PROJECT_DIR$/ms-spring-users/ms-spring-users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../POC-test/poc-ms-cloud-gateway/poc-ms-cloud-gateway.iml" filepath="$PROJECT_DIR$/../../../../POC-test/poc-ms-cloud-gateway/poc-ms-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../POC-test/poc-ms-eureka/poc-ms-eureka.iml" filepath="$PROJECT_DIR$/../../../../POC-test/poc-ms-eureka/poc-ms-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/poc-ms-product.iml" filepath="$PROJECT_DIR$/../../../../POC-test/poc-ms-product/poc-ms-product.iml" />
     </modules>
   </component>
 </project>

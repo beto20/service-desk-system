@@ -11,7 +11,8 @@ import reactor.core.publisher.Mono;
 import java.time.LocalDateTime;
 
 
-@Service @AllArgsConstructor
+@Service
+@AllArgsConstructor
 public class TicketBusinessImpl implements TicketBusiness {
 
     private final TicketRepository repository;
@@ -22,7 +23,7 @@ public class TicketBusinessImpl implements TicketBusiness {
     }
 
     @Override
-    public Mono<Ticket> getById(Integer id) {
+    public Mono<Ticket> getById(String id) {
         return repository.findById(id);
     }
 
@@ -35,8 +36,7 @@ public class TicketBusinessImpl implements TicketBusiness {
     }
 
     @Override
-    @Transactional
-    public Mono<Ticket> update(Integer id, Ticket ticket) {
+    public Mono<Ticket> update(String id, Ticket ticket) {
         LocalDateTime localDateTime = LocalDateTime.now();
         return repository.findById(id)
                 .map(upTicket -> Ticket.builder()
@@ -52,7 +52,7 @@ public class TicketBusinessImpl implements TicketBusiness {
     }
 
     @Override
-    public Mono<Void> delete(Integer id) {
+    public Mono<Void> delete(String id) {
         return repository.deleteById(id);
     }
 }

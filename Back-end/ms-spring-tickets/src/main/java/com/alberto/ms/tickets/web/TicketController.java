@@ -9,35 +9,35 @@ import reactor.core.publisher.Mono;
 
 
 @RestController
-@RequestMapping("api/tickets/")
+@RequestMapping("/tickets")
 @RequiredArgsConstructor
 //@CrossOrigin(origins = "http://localhost:4200/")
 public class TicketController {
 
     private final TicketBusinessImpl business;
 
-    @GetMapping
+    @GetMapping("/")
     public Flux<Ticket> getAllTicket() {
         return business.getAll();
     }
 
     @GetMapping("{id}")
-    public Mono<Ticket> getTicketById(@PathVariable("id") Integer id) {
+    public Mono<Ticket> getTicketById(@PathVariable("id") String id) {
         return business.getById(id);
     }
 
-    @PostMapping
+    @PostMapping("/")
     public Mono<Ticket> insertTicket(@RequestBody Ticket ticket) {
         return business.insert(ticket);
     }
 
     @PutMapping("{id}")
-    public Mono<Ticket> updateTicket(@PathVariable("id") Integer id, @RequestBody Ticket ticket) {
+    public Mono<Ticket> updateTicket(@PathVariable("id") String id, @RequestBody Ticket ticket) {
         return business.update(id, ticket);
     }
 
     @DeleteMapping("{id}")
-    public Mono<Void> deleteTicket(@PathVariable("id") Integer id) {
+    public Mono<Void> deleteTicket(@PathVariable("id") String id) {
         return business.delete(id);
     }
 }

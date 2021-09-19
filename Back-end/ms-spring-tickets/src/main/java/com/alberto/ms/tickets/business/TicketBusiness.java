@@ -6,8 +6,8 @@ import reactor.core.publisher.Mono;
 
 public interface TicketBusiness {
     Flux<Ticket> getAll();
-    Mono<Ticket> getById(Integer id);
+    Mono<Ticket> getById(String id);
     Mono<Ticket> insert(Ticket ticket);
-    Mono<Ticket> update(Integer id, Ticket ticket);
-    Mono<Void> delete(Integer id);
+    Mono<Ticket> update(String id, Ticket ticket);
+    Mono<Void> delete(String id);
 }

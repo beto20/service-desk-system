@@ -5,13 +5,17 @@ spring:
     name: API-GATEWAY
   cloud:
     gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       routes:
-        - id: USER-SERVICE
-          uri: lb://USER-SERVICE
-          predicates:
-            - Path=/api/users/**
         - id: TICKET-SERVICE
           uri: lb://TICKET-SERVICE
           predicates:
-            - Path=/api/tickets/**
+            - Path=/api/**
+        - id: USER-SERVICE
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/**
 
