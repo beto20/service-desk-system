@@ -28,12 +28,12 @@ public class DepartmentController {
         return business.insert(department);
     }
 
-    @PutMapping("{id}")
+    @PutMapping("/{id}")
     public Mono<Department> updateUser(@RequestBody Department department, @PathVariable("id") String id) {
         return business.update(id, department);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("/{id}")
     public Mono<Void> deleteUser(@PathVariable("id") String id) {
         return business.delete(id);
     }
