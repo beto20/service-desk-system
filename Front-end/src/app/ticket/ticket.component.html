@@ -1,0 +1,41 @@
+<div class="container"> 
+    En esta tabla vamos a construir nuestra lista de tickets
+    <div>
+        <button type="button"  [routerLink]="['/']" class="btn btn-info">
+            Nuevo Ticket
+        </button>
+    </div>
+    <div>
+      
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Titulo</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">fecha</th>
+                <th scope="col">prioridad</th>
+                <th scope="col">estatus</th>
+                <th scope="col">operador</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let ticket of ticketList">
+                <th scope="row">{{ticket.userid}}</th>
+                <td>{{ticket.description}}</td>
+                <td>{{ticket.category}}</td>
+                <td>{{ticket.date}}</td>
+                <td>{{ticket.priority}}</td>
+                <td>{{ticket.status}}</td>
+                <td>{{ticket.user_id}}</td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button"  [routerLink]="['/']" class="btn btn-info">
+                INICIO
+          </button>
+          <button type="button"  [routerLink]="['/']" class="btn btn-info"> 
+               Nuevo Ticket
+          </button>
+    </div>
+</div>
