@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60e13446-ec41-4cfa-82a1-432659975d81" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1y5bbMM7bS0TuxHAJ1EHRriaqLV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../STS/poc-spring-security" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\AmbDesarrollo\DESARROLLO\BACKEND\Java\web\service-desk-system\Back-end\ms-spring-tickets\src\main\resources" />
+      <recent name="C:\Users\USUARIO\Documents\AmbDesarrollo\DESARROLLO\BACKEND\Java\web\service-desk-system\Back-end\ms-spring-cloud-gateway\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.ms.spring.client.util" />
+      <recent name="com.example.ms.spring.client.repository" />
+      <recent name="com.alberto.ms.spring.helpdesk.util" />
+      <recent name="com.example.ms.spring.users.repository" />
+      <recent name="com.example.ms.spring.users.model.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MsSpringClientApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-cloud-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.ms.cloud.config.MsCloudConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-spring-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ms.spring.client.MsSpringClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ms-spring-cloud-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alberto.ms.spring.cloud.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.ms.spring.cloud.gateway.MsSpringCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ms-spring-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ms.spring.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ms.spring.eureka.MsSpringEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringHelpdeskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-spring-helpdesk" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.ms.spring.helpdesk.MsSpringHelpdeskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringTicketsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-spring-tickets" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.ms.tickets.MsSpringTicketsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsSpringUsersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ms-spring-users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ms.spring.users.MsSpringUsersApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PocMsCloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-ms-cloud-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.poc.ms.cloud.config.PocMsCloudConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PocMsCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-ms-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.poc.ms.cloud.gateway.PocMsCloudGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PocMsEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-ms-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.poc.ms.eureka.PocMsEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PocMsProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-ms-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alberto.poc.ms.product.PocMsProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PocSpringSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-spring-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.poc.spring.security.PocSpringSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MsSpringEurekaApplication" />
+        <item itemvalue="Spring Boot.MsSpringCloudGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e13446-ec41-4cfa-82a1-432659975d81" name="Default Changelist" comment="" />
+      <created>1631544538927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631544538927</updated>
+      <workItem from="1631544556787" duration="3584000" />
+      <workItem from="1631686797912" duration="569000" />
+      <workItem from="1631800063654" duration="305000" />
+      <workItem from="1631800478749" duration="97000" />
+      <workItem from="1631800602243" duration="63000" />
+      <workItem from="1631800715064" duration="4288000" />
+      <workItem from="1631814730728" duration="5326000" />
+      <workItem from="1632005082070" duration="7894000" />
+      <workItem from="1632015264693" duration="19303000" />
+      <workItem from="1632062730222" duration="11411000" />
+      <workItem from="1632119806201" duration="2037000" />
+      <workItem from="1632148991600" duration="20153000" />
+      <workItem from="1632191478509" duration="3601000" />
+      <workItem from="1632242567977" duration="4480000" />
+      <workItem from="1632282258579" duration="3460000" />
+      <workItem from="1632318842677" duration="582000" />
+      <workItem from="1632324428276" duration="7024000" />
+      <workItem from="1632369694030" duration="1123000" />
+      <workItem from="1632403593912" duration="594000" />
+      <workItem from="1632580672975" duration="23244000" />
+      <workItem from="1632623240978" duration="1165000" />
+      <workItem from="1632718284964" duration="3879000" />
+      <workItem from="1632751069725" duration="4110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/query/ProductEventsHandler.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/command/rest/ProductCommandController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/command/rest/ProductCommandController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/command/ProductAggregate.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/command/ProductAggregate.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../../POC-test/poc-ms-product/src/main/java/com/alberto/poc/ms/product/command/ProductAggregate.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
