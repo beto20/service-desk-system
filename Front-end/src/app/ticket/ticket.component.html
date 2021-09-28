@@ -1,0 +1,55 @@
+<div class="container">
+  <h2>{{titulo}}</h2>
+  <h4>Welcome back {{client.name}} {{client.lastname}}!</h4>
+  <br>
+  <div class="row">
+
+    <div class="col-md-2">
+      <button class="btn btn-success" type="button" [routerLink]="['/ticket/add']"> Add new ticket </button>
+    </div>
+    <div class="col-md-2">
+      <button class="btn btn-dark" type="button" > Repository </button>
+    </div>
+
+    <!-- THIS FEATURE IS NOT READY TO SHOW, DO NOT TOUCH IT
+    <div class="col-md-4">
+      <div class="input-group">
+        <input type="search" class="form-control rounded" placeholder="Search by title" aria-label="Search"
+          aria-describedby="search-addon" />
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/ticket/results']" >search</button>
+      </div>
+    </div>
+    -->
+
+    <div class="col-md-2">
+      <button class="btn btn-info" type="button" [routerLink]="['/client/info', client.id ]"> My profile </button>
+    </div>
+  </div>
+  <br>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Category</th>
+        <th scope="col">Priority</th>
+        <th scope="col">Reported Date</th>
+        <th scope="col">Status</th>
+        <th scope="col">Options</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ticket of ticketList">
+        <td> {{ ticket.title}}  </td>
+        <td> {{ ticket.category}}  </td>
+        <td> {{ ticket.priority}}  </td>
+        <td> {{ ticket.reportedDate}}  </td>
+        <td> {{ ticket.status}}  </td>
+        <td>
+          <button type="button" name="" class="btn btn-info" [routerLink]="['/ticket/details', ticket.id]" >Show details</button>
+          <button type="button" name="" class="btn btn-primary" [routerLink]="['/ticket/edit', ticket.id]" >Edit</button>
+          <button type="button" name="" class="btn btn-danger" (click)="deleteTicketById(ticket)" >Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
