@@ -1,0 +1,41 @@
+<div class="container">
+
+  <div class="card-body">
+    <h5 class="card-title">{{titulo}}</h5>
+
+    <div class="form-group row">
+      <label for="clientId" class="col-form-label col-sm-2">Client id</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" name="clientId" disabled [(ngModel)]="client.id" >
+      </div>
+    </div>
+      <div class="form-group row">
+        <label for="name" class="col-form-label col-sm-2">Name</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="name" [(ngModel)]="client.name">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="lastname" class="col-form-label col-sm-2">Lastname</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="lastname" [(ngModel)]="client.lastname">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="hierarchy" class="col-form-label col-sm-2">Hierarchy</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="hierarchy" readonly [(ngModel)]="client.hierarchy">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="department" class="col-form-label col-sm-2">Department</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="department" readonly [(ngModel)]="client.department">
+        </div>
+      </div>
+      <button class="btn btn-info" role="button" (click)='updateClientInformation()'>Update information</button>
+      <button class="btn btn-danger" role="button" [routerLink]="['/tickets']" >Back</button>
+
+  </div>
+
+</div>
